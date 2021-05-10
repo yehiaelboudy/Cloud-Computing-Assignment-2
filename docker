@@ -1,0 +1,5 @@
+#base image
+FROM python 
+COPY . /project 
+WORKDIR /project 
+CMD python code.py
